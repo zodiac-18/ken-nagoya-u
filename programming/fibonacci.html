@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>フィボナッチ数列 - 荻田のウェブページ</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="fibonacci.js"></script>
+    <script>
+      MathJax = {
+        chtml: {
+          matchFontHeight: false
+        },
+        tex: {
+          inlineMath: [['$', '$']]
+        }
+      };
+      </script>
+      <script id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+      </script>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header-left">
+          <p class="title">荻田のウェブページ</p>
+        </div>
+        <div class="header-right">
+          <a href="about.html" class="about">about</a>
+          <a href="home.html" class="home">home</a>
+        </div>
+      </div>
+    </header>
+    <div class="top">
+      <div class="greeting">
+        <h1>こんにちは!</h1>
+        <h1>荻田健一のウェブページへようこそ</h1>
+      </div>
+   </div>
+   <div class="main">
+     <div class="contents_3">
+       <h2 class="contents-3 contents-title">フィボナッチ数列</h2>
+       <div class="contents3-main">
+         <p>フィボナッチ数列とは、0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610...という風に、 自身の1つ前と2つ前の数を足し合わせたものを並べた数列です。 </p>
+         <p>この数列の漸化式は以下のように与えられます。</p>
+         \[
+           \begin{align}
+           &F_0 = 0, \\
+           &F_1 = 1, \\
+           &F_{n+2} = F_n + F_{n+1} \ (n \geq 0)
+           \end{align}
+         \]
+         <p>また、この漸化式より、フィボナッチ数列の一般項は次のように与えられます。</p>
+         \[
+           F_n = \displaystyle \frac{1}{\sqrt{5}} \left\{\left(\displaystyle \frac{1+\sqrt{5}}{2} \right)^n-\left(\displaystyle \frac{1-\sqrt{5}}{2} \right)^n \right\}
+         \]
+         <h3 class="contents-title">フィボナッチ数を求める</h3>
+         <h4>【使い方】</h4>
+         <p>下のテキストボックスに、 フィボナッチ数列の何項目を求めたいか入力して、計算を押してください。(数字以外を入れると動作しなくなる恐れがあります。)</p>
+         <form name="form" class="form">
+          n: <input type="text" size=5 name="a" class="n_num" value="10"><br>
+         </form>
+         <form name="form-1" class="form-1">
+          <input type="button" value="計算" onclick="fib()" class="button"><br>
+         </form>
+         <form name="form2" class="form2">
+          F(n): <input type="text" size=5 name="b" class="fib_num"><br>
+         </form>
+         <a href="home.html" class="back-home">>>ホームに戻る</a>
+       </div>
+     </div>
+   </div>
+    <div class="footer">
+      <div class="footer-left">
+        <p>このウェブページは情報リテラシー(理系)の講義用に作成したものです。</p>
+      </div>
+      <div class="footer-right">
+        <ul>
+          <li>
+            <a href="home.html" class="footer-home">home</a>
+          </li>
+          <li>
+            <a href="about.html" class="footer-about">about</a>
+          </ul>
+      </div>
+    </div>
+  </body>
+</html>

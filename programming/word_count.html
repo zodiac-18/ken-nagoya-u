@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>単語数カウンター - 荻田のウェブページ</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="word_count.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header-left">
+          <p class="title">荻田のウェブページ</p>
+        </div>
+        <div class="header-right">
+          <a href="about.html" class="about">about</a>
+          <a href="home.html" class="home">home</a>
+        </div>
+      </div>
+    </header>
+    <div class="top">
+      <div class="greeting">
+        <h1>こんにちは!</h1>
+        <h1>荻田健一のウェブページへようこそ</h1>
+      </div>
+   </div>
+   <div class="main">
+     <div class="contents_1">
+       <h2 class="contents-1 contents-title">単語数カウンター</h2>
+       <div class="contents1-main">
+         <p>入力された文章の単語数と文字数を数えます。</p>
+         <form name="form3" class="form3">
+          <textarea name="a" cols="170" rows="20">This is a pen.</textarea><br>
+         </form>
+         <form name="form-1" class="form-1">
+          <input type="button" value="カウント" onclick="count()" class="button"><br>
+         </form>
+         <form name="form2" class="form2">
+          単語数: <input type="text" size=5 name="b" class="word"><br>
+          文字数: <input type="text" size=5 name="c" class="word"><br>
+          文字数(空白を除く): <input type="text" size=5 name="d" class="word"><br>
+         </form>
+         <a href="home.html">>>ホームに戻る</a>
+       </div>
+     </div>
+   </div>
+    <div class="footer">
+      <div class="footer-left">
+        <p>このウェブページは情報リテラシー(理系)の講義用に作成したものです。</p>
+      </div>
+      <div class="footer-right">
+        <ul>
+          <li>
+            <a href="home.html" class="footer-home">home</a>
+          </li>
+          <li>
+            <a href="about.html" class="footer-about">about</a>
+          </ul>
+      </div>
+    </div>
+  </body>
+</html>
