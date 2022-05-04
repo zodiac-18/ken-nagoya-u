@@ -90,10 +90,19 @@ header {
   padding: 30px 80px;
 }
 .contents {
-  height: 800px;
+  height: 1000px;
   background-color: #fffafa;
   padding: 30px;
+  overflow:scroll;
 }
+
+.contents_result {
+  height: 1000px;
+  background-color: #fffafa;
+  padding: 30px;
+  overflow:scroll;
+}
+
 .contents-title {
   border-bottom: 1px solid #dee7ec;
 }
