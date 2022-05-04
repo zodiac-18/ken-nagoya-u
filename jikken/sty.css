@@ -90,16 +90,19 @@ header {
   padding: 30px 80px;
 }
 .contents {
-  height: 1000px;
+  height: 800px;
   background-color: #fffafa;
   padding: 30px;
-  overflow:scroll;
 }
 
 .contents_result {
   height: 1000px;
   background-color: #fffafa;
   padding: 30px;
+}
+
+.result {
+  height: 1000px;
   overflow:scroll;
 }
 
@@ -217,6 +220,7 @@ header {
 .level-img {
   text-align: center;
 }
+
 .filter ul {
   border: solid 2px #ffb03f;
   padding: 0 1em 0.5em 2.3em;
