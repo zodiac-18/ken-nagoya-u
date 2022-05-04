@@ -96,14 +96,14 @@ header {
 }
 
 .contents_result {
-  height: 1000px;
+  height: 1500px;
   background-color: #fffafa;
   padding: 30px;
+  overflow:scroll;
 }
 
 .result {
   height: 800px;
-  overflow:scroll;
   background-color: #fffafa;
   padding: 30px;
 }
