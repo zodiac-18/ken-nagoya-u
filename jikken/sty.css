@@ -60,7 +60,7 @@ header {
   color: rgba(255, 255, 255, 0.9)
 }
 .about {
-/*  float: right;*/
+  float: right;
   background-color: rgba(0, 0, 128, 0.3);
   transition: all 0.7s;
   line-height: 65px;
@@ -74,7 +74,7 @@ header {
   background-color: rgba(255, 255, 255, 0.5);
 }
 .home {
-/*  float: right;*/
+  float: right;
   text-align: center;
   background-color: rgba(0, 0, 128, 0.3);
   transition: all 0.7s;
@@ -163,7 +163,7 @@ header {
 }
 .footer-right {
   background-color: #165e83;
-/*  float: right;*/
+  float: right;
   text-align: center;
   height: 120px;
   display: inline-block;
