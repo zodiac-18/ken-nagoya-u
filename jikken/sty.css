@@ -1,0 +1,242 @@
+body {
+  font-family: "Avenir Next";
+  background-color: #FFFFEE;
+  margin-top: 100px;
+}
+.footer li {
+  list-style: none;
+}
+.main ul {
+  border: solid 2px skyblue;
+  border-radius: 5px;
+  padding: 0.5em 1em 0.5em 2.3em;
+  position: relative;
+}
+.main ul li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+  list-style-type: none;
+}
+.main ul li:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f138";
+  position: absolute;
+  left : 1em;
+  color: skyblue;
+}
+.c a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9)
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(0, 0, 128, 0.8);
+  position:fixed;
+  top:0px;
+  z-index:10;
+}
+.title {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: white;
+}
+.header-left {
+  float: left;
+}
+.top {
+  width: 1100px;
+  padding: 30px;
+  height: 250px;
+  margin: 0px auto;
+  background-image: url(img/top.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.greeting {
+  padding: 40px;
+  color: rgba(255, 255, 255, 0.9)
+}
+.about {
+  float: right;
+  background-color: rgba(0, 0, 128, 0.3);
+  transition: all 0.7s;
+  line-height: 65px;
+  width: 120px;
+  color: white;
+  text-align: center;
+  margin: 0px 20px;
+  display: inline-block;
+}
+.about:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.home {
+  float: right;
+  text-align: center;
+  background-color: rgba(0, 0, 128, 0.3);
+  transition: all 0.7s;
+  line-height: 65px;
+  width: 120px;
+  color: white;
+  display: inline-block;
+}
+.home:hover {
+  background-color: rgba(255, 255, 255, 0.5)
+}
+.main {
+  padding: 30px 80px;
+}
+.contents {
+  height: 800px;
+  background-color: #fffafa;
+  padding: 30px;
+}
+.contents-title {
+  border-bottom: 1px solid #dee7ec;
+}
+.contents-main li {
+  font-weight: bold;
+}
+.contents-item li {
+  font-size: 20px;
+  font-weight: bold;
+}
+.contents-item {
+  color: black;
+}
+.contents-item a {
+  margin-left: 5px;
+}
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+.form input {
+  height: 20px;
+  width: 200px;
+  margin: 5px;
+}
+.form-1 input {
+  height: 40px;
+  width: 100px;
+  margin-top: 3px;
+}
+.form2 input {
+  height: 30px;
+  width: 200px;
+  margin-top: 3px;
+}
+.form3 input {
+  height: 200px;
+  width: 1000px;
+  margin: 5px;
+}
+.footer {
+  background-color: rgb(0, 0, 128);
+  height: 60px;
+  padding: 0px 0px 60px 20px;
+}
+.footer-left {
+  padding-top: 15px;
+  float: left;
+  font-size:11.5px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.footer-right {
+  background-color: #165e83;
+  float: right;
+  text-align: center;
+  height: 120px;
+  display: inline-block;
+  position: relative;
+  width: 160px;
+}
+.footer-home {
+  margin: 0px 0px 10px 0px;
+  color: white;
+  width: 160px;
+  line-height: 60px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.footer-home:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.7s;
+}
+.footer-about {
+  margin: 10px 0px 0px 0px;
+  color: white;
+  width: 160px;
+  line-height: 60px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.footer-about:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.7s;
+}
+.back-home {
+  margin-top: 20px;
+}
+.filter {
+  height: 30px;
+  background-color: #fffafa;
+  padding: 20px;
+}
+.contents_2 {
+  height: 830px;
+  background-color: #fffafa;
+  padding: 30px;
+}
+.contents_3 {
+  height: 670px;
+  background-color: #fffafa;
+  padding: 30px;
+}
+.contents_7 {
+  height: 830px;
+  background-color: #fffafa;
+  padding: 30px;
+}
+.level-img {
+  text-align: center;
+}
+.filter ul {
+  border: solid 2px #ffb03f;
+  padding: 0 1em 0.5em 2.3em;
+  position: relative;
+}
+.contents1-main ul li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+  list-style-type: none;
+}
+
+.contents2-main ul {
+  border: solid 2px #ffb03f;
+  padding: 0.5em 1em 0.5em 2.3em;
+  position: relative;
+}
+.contents2-main ul li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+  list-style-type: none;
+}
+.contents1-main span{
+  font-weight: bold;
+}
+.hr_filter{
+  position: relative;
+	height: 3px;
+	border-width: 0;
+	background-color: #00bcd4;
+	background-image: -webkit-linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
+	background-image: linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
+}
