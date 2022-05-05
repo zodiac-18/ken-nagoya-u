@@ -164,9 +164,9 @@ header {
 .footer-right {
   background-color: #165e83;
   float: right;
+  display: flex;
   text-align: center;
   height: 120px;
-  display: inline-block;
   position: relative;
   width: 160px;
 }
