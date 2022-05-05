@@ -101,17 +101,17 @@ header {
   padding: 30px;
 }
 
+.filter {
+  height: 600px;
+  background-color: #fffafa;
+  padding: 20px;
+}
+
 .result {
   height: 800px;
   overflow:scroll;
   background-color: #fffafa;
   padding: 10px;
-}
-
-.filter {
-  height: 600px;
-  background-color: #fffafa;
-  padding: 20px;
 }
 
 .contents-title {
