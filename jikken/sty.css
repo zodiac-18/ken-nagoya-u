@@ -96,16 +96,22 @@ header {
 }
 
 .contents_result {
-  height: 1500px;
+  height: 1400px;
   background-color: #fffafa;
   padding: 30px;
-  overflow:scroll;
 }
 
 .result {
   height: 800px;
   background-color: #fffafa;
   padding: 30px;
+  overflow:scroll;
+}
+
+.filter {
+  height: 600px;
+  background-color: #fffafa;
+  padding: 20px;
 }
 
 .contents-title {
@@ -164,7 +170,7 @@ header {
 .footer-right {
   background-color: #165e83;
   float: right;
-  display: flex;
+  display: inline-block;
   text-align: center;
   height: 120px;
   position: relative;
@@ -199,11 +205,6 @@ header {
 .back-home {
   margin-top: 20px;
 }
-.filter {
-  height: 600px;
-  background-color: #fffafa;
-  padding: 20px;
-}
 
 .contents_2 {
   height: 830px;
@@ -229,6 +230,7 @@ header {
   padding: 0 1em 0.5em 2.3em;
   position: relative;
 }
+
 .contents1-main ul li {
   line-height: 1.5;
   padding: 0.5em 0;
