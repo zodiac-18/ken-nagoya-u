@@ -107,7 +107,7 @@ header {
   padding: 10px;
 }
 
-.result {
+.results {
   height: 1000px;
   overflow:scroll;
   background-color: #fffafa;
