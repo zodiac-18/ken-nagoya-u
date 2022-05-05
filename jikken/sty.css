@@ -277,7 +277,7 @@ table th:last-child{
 table th{
   text-align: center;
   color:white;
-  background: linear-gradient(#6bfaff,#293eff);
+  background: linear-gradient(#87ceeb,#6bfaff);
   border-left: 1px solid #3c6690;
   border-top: 1px solid #3c6690;
   border-bottom: 1px solid #3c6690;
