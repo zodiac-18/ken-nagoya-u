@@ -309,30 +309,29 @@ table tr:last-child td:last-child {
 }
 
 td#NOVICE {
-  color: "rgb(27, 22, 76)";
+  color: rgb(27, 22, 76);
 }
-
 td#ADVANCED {
-  color: "rgb(152, 110, 44)";
+  color: rgb(152, 110, 44);
 }
 td#EXHAUST {
-  color: "rgb(199, 58, 60)";
+  color: rgb(199, 58, 60);
 }
 td#MAXIMUM {
-  color: "rgb(121, 121, 121)";
+  color: rgb(121, 121, 121);
 }
 td#INFINITE {
-  color: "rgb(187, 79, 179)";
+  color: rgb(187, 79, 179);
 }
 td#GRAVITY {
-  color: "rgb(199, 113, 58)";
+  color: rgb(199, 113, 58);
 }
 td#HEAVENLY {
-  color: "rgb(58, 160, 199)";
+  color: rgb(58, 160, 199);
 }
 td#VIVID {
-  color: "rgb(255, 89, 205)";
+  color: rgb(255, 89, 205);
 }
 td#EXCEED {
-  color: "rgb(24, 127, 255)";
+  color: rgb(24, 127, 255);
 }
