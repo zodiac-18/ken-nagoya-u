@@ -142,6 +142,10 @@ a.data {
   text-decoration: none;
 }
 
+a.data:hover {
+  color: red;
+}
+
 .form input {
   height: 20px;
   width: 200px;
