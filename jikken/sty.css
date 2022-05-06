@@ -136,6 +136,11 @@ header {
   padding-bottom: 15px;
   margin-bottom: 50px;
 }
+
+a.data {
+  text-decoration: none;
+}
+
 .form input {
   height: 20px;
   width: 200px;
