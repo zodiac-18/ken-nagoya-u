@@ -101,8 +101,20 @@ header {
   padding: 30px;
 }
 
+.contents_ss {
+  height: 500px;
+  background-color: #fffafa;
+  padding: 30px;
+}
+
 .filter {
   height: 580px;
+  background-color: #fffafa;
+  padding: 10px;
+}
+
+.ss_score {
+  height: 300px;
   background-color: #fffafa;
   padding: 10px;
 }
@@ -110,6 +122,12 @@ header {
 .results {
   height: 1000px;
   overflow:scroll;
+  background-color: #fffafa;
+  padding: 10px;
+}
+
+.ss_results {
+  height: 100px;
   background-color: #fffafa;
   padding: 10px;
 }
