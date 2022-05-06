@@ -345,3 +345,7 @@ td#VIVID {
 td#EXCEED {
   color: rgb(24, 127, 255);
 }
+td#color {
+  color: rgb(255, 24, 24);
+  font-weight: bold;
+}
