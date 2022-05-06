@@ -132,6 +132,10 @@ header {
   padding: 10px;
 }
 
+.ss_music {
+  display: none;
+}
+
 .contents-title {
   border-bottom: 1px solid #dee7ec;
 }
