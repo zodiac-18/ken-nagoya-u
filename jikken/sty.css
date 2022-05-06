@@ -349,3 +349,7 @@ td#color {
   color: rgb(255, 24, 24);
   font-weight: bold;
 }
+td#color_blue {
+  color: rgb(24, 132, 255);
+  font-weight: bold;
+}
