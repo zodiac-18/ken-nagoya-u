@@ -132,6 +132,12 @@ header {
   overflow:scroll;
   padding: 10px;
 }
+.ss_results {
+  height: 300px;
+  background-color: #fffafa;
+  overflow:scroll;
+  padding: 10px;
+}
 
 .ss_music {
   display: none;
