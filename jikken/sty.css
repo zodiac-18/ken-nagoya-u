@@ -352,31 +352,31 @@ table tr:last-child td:last-child {
   border-radius: 0 0 5px 0;
 }
 
-td#NOVICE {
+.NOVICE {
   color: rgb(27, 22, 76);
 }
-td#ADVANCED {
+.ADVANCED {
   color: rgb(152, 110, 44);
 }
-td#EXHAUST {
+.EXHAUST {
   color: rgb(199, 58, 60);
 }
-td#MAXIMUM {
+.MAXIMUM {
   color: rgb(121, 121, 121);
 }
-td#INFINITE {
+.INFINITE {
   color: rgb(187, 79, 179);
 }
-td#GRAVITY {
+.GRAVITY {
   color: rgb(199, 113, 58);
 }
-td#HEAVENLY {
+.HEAVENLY {
   color: rgb(58, 160, 199);
 }
-td#VIVID {
+.VIVID {
   color: rgb(255, 89, 205);
 }
-td#EXCEED {
+.EXCEED {
   color: rgb(24, 127, 255);
 }
 .color {
