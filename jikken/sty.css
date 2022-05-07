@@ -119,20 +119,20 @@ header {
   padding: 10px;
 }
 
-.results {
+.results,.top_results{
   height: 1100px;
   overflow:scroll;
   background-color: #fffafa;
   padding: 10px;
 }
 
-.ss_results,.top_results {
+.ss_results {
   height: 600px;
   background-color: #fffafa;
   padding: 10px;
 }
-.ss_table,.result_top_table {
-  height: 400px;
+.ss_table {
+  height: 700px;
   background-color: #fffafa;
   overflow:scroll;
   padding: 10px;
