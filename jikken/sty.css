@@ -133,12 +133,12 @@ header {
 }
 
 .ss_results {
-  height: 300px;
+  height: 350px;
   background-color: #fffafa;
   padding: 10px;
 }
 .ss_table {
-  height: 150px;
+  height: 250px;
   background-color: #fffafa;
   overflow:scroll;
   padding: 10px;
