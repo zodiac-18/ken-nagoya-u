@@ -96,7 +96,7 @@ header {
 }
 
 .contents_result {
-  height: 1800px;
+  height: 1850px;
   background-color: #fffafa;
   padding: 30px;
 }
@@ -120,7 +120,7 @@ header {
 }
 
 .results {
-  height: 1000px;
+  height: 1100px;
   overflow:scroll;
   background-color: #fffafa;
   padding: 10px;
