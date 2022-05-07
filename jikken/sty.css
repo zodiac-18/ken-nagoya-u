@@ -127,7 +127,7 @@ header {
 }
 
 .ss_results {
-  height: 700px;
+  height: 600px;
   background-color: #fffafa;
   overflow:scroll;
   padding: 10px;
