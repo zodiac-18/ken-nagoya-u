@@ -132,8 +132,8 @@ header {
   overflow:scroll;
   padding: 10px;
 }
-.ss_results {
-  height: 300px;
+.ss_table {
+  height: 400px;
   background-color: #fffafa;
   overflow:scroll;
   padding: 10px;
