@@ -102,7 +102,7 @@ header {
 }
 
 .contents_ss {
-  height: 800px;
+  height: 1000px;
   background-color: #fffafa;
   padding: 30px;
 }
@@ -127,7 +127,7 @@ header {
 }
 
 .ss_results {
-  height: 500px;
+  height: 700px;
   background-color: #fffafa;
   overflow:scroll;
   padding: 10px;
