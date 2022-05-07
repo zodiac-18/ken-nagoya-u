@@ -119,9 +119,15 @@ header {
   padding: 10px;
 }
 
-.results,.top_results{
+.results{
   height: 1100px;
   overflow:scroll;
+  background-color: #fffafa;
+  padding: 10px;
+}
+
+.top_results{
+  height: 800px;
   background-color: #fffafa;
   padding: 10px;
 }
