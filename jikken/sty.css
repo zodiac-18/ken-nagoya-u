@@ -127,6 +127,7 @@ header {
 
 .results_table{
   height: auto;
+  overflow: scroll;
   background-color: #fffafa;
 }
 
