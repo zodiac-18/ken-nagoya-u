@@ -90,55 +90,55 @@ header {
   padding: 30px 80px;
 }
 .contents {
-  height: 1650px;
+  height: auto;
   background-color: #fffafa;
   padding: 30px;
 }
 
 .contents_result {
-  height: 1850px;
+  height: auto;
   background-color: #fffafa;
   padding: 30px;
 }
 
 .contents_ss {
-  height: 850px;
+  height: auto;
   background-color: #fffafa;
   padding: 30px;
 }
 
 .filter {
-  height: 580px;
+  height: auto;
   background-color: #fffafa;
   padding: 10px;
 }
 
 .ss_score {
-  height: 200px;
+  height: auto;
   background-color: #fffafa;
   padding: 10px;
 }
 
 .results{
-  height: 900px;
+  height: auto;
   overflow:scroll;
   background-color: #fffafa;
   padding: 10px;
 }
 
 .top_results{
-  height: 700px;
+  height: auto;
   background-color: #fffafa;
   padding: 10px;
 }
 
 .ss_results {
-  height: 350px;
+  height: auto;
   background-color: #fffafa;
   padding: 10px;
 }
 .ss_table {
-  height: 250px;
+  height: auto;
   background-color: #fffafa;
   overflow:scroll;
   padding: 10px;
