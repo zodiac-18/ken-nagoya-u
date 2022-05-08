@@ -128,7 +128,7 @@ header {
 
 .top_results{
   height: auto;
-  overflow-x: hidden;
+  overflow-x: auto;
   background-color: #fffafa;
   padding: 10px;
 }
