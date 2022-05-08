@@ -154,16 +154,6 @@ header {
 .contents-main li {
   font-weight: bold;
 }
-.contents-item li {
-  font-size: 20px;
-  font-weight: bold;
-}
-.contents-item {
-  color: black;
-}
-.contents-item a {
-  margin-left: 5px;
-}
 .section-title {
   border-bottom: 2px solid #dee7ec;
   font-size: 28px;
@@ -180,26 +170,6 @@ a.data:hover {
   color: red;
 }
 
-.form input {
-  height: 20px;
-  width: 200px;
-  margin: 5px;
-}
-.form-1 input {
-  height: 40px;
-  width: 100px;
-  margin-top: 3px;
-}
-.form2 input {
-  height: 30px;
-  width: 200px;
-  margin-top: 3px;
-}
-.form3 input {
-  height: 200px;
-  width: 1000px;
-  margin: 5px;
-}
 .footer {
   background-color: rgb(0, 0, 128);
   height: 60px;
@@ -250,18 +220,8 @@ a.data:hover {
   margin-top: 20px;
 }
 
-.contents_2 {
-  height: 830px;
-  background-color: #fffafa;
-  padding: 30px;
-}
-.contents_3 {
-  height: 670px;
-  background-color: #fffafa;
-  padding: 30px;
-}
 .contents_7 {
-  height: 830px;
+  height: auto;
   background-color: #fffafa;
   padding: 30px;
 }
@@ -275,25 +235,6 @@ a.data:hover {
   position: relative;
 }
 
-.contents1-main ul li {
-  line-height: 1.5;
-  padding: 0.5em 0;
-  list-style-type: none;
-}
-
-.contents2-main ul {
-  border: solid 2px #ffb03f;
-  padding: 0.5em 1em 0.5em 2.3em;
-  position: relative;
-}
-.contents2-main ul li {
-  line-height: 1.5;
-  padding: 0.5em 0;
-  list-style-type: none;
-}
-.contents1-main span{
-  font-weight: bold;
-}
 .hr_filter{
   position: relative;
 	height: 3px;
