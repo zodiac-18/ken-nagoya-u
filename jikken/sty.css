@@ -121,15 +121,11 @@ header {
 
 .results{
   height: auto;
+  overflow: scroll;
   background-color: #fffafa;
   padding: 10px;
 }
 
-.results_table{
-  height: auto;
-  overflow: scroll;
-  background-color: #fffafa;
-}
 
 .top_results{
   height: auto;
